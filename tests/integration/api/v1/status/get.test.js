@@ -10,4 +10,7 @@ test("GET to /api/v1/status should return 200", async () => {
 
   expect(responseBody.database.data_base_version).toEqual("18.0");
   expect(responseBody.database.max_connect).toBe('100');
+  expect(responseBody.database.open_connect).toBe(1);
+
 });
+
