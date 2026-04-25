@@ -1,3 +1,4 @@
 export default function Home() {
-  return <div />;
+  const ms = "Clone Tab News"
+  return ms;
 }
